@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Test script for project execution start time">
+    <classes>
+      <class name="com.appium.model.StartExecution"/>
+    </classes>
+  </test> <!-- Test script for project execution start time -->
+  <test name="Sign Up Test script">
+    <classes>
+      <class name="com.birdzi.test.FullFlow"/>
+    </classes>
+  </test> <!-- Sign Up Test script -->
+  <test name="Test script for project execution end time">
+    <classes>
+      <class name="com.appium.model.EndExecution"/>
+    </classes>
+  </test> <!-- Test script for project execution end time -->
+</suite> <!-- Failed suite [Suite] -->

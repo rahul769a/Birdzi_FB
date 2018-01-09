@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="359010" started-at="2017-03-07T12:11:55Z" finished-at="2017-03-07T12:17:54Z">
+    <groups>
+    </groups>
+    <test name="Test script for project execution start time" duration-ms="26622" started-at="2017-03-07T12:11:55Z" finished-at="2017-03-07T12:12:21Z">
+      <class name="com.appium.model.StartExecution">
+        <test-method status="PASS" signature="startTime()[pri:0, instance:com.appium.model.StartExecution@62043840]" name="startTime" duration-ms="26588" started-at="2017-03-07T17:41:55Z" finished-at="2017-03-07T17:42:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+      </class> <!-- com.appium.model.StartExecution -->
+    </test> <!-- Test script for project execution start time -->
+    <test name="Sign Up Test script" duration-ms="332333" started-at="2017-03-07T12:12:21Z" finished-at="2017-03-07T12:17:54Z">
+      <class name="com.birdzi.test.FullFlow">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.birdzi.test.FullFlow@97e1986]" name="startUp" is-config="true" duration-ms="36864" started-at="2017-03-07T17:42:21Z" finished-at="2017-03-07T17:42:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.birdzi.test.FullFlow@97e1986]" name="beforeTest" is-config="true" duration-ms="1" started-at="2017-03-07T17:42:58Z" finished-at="2017-03-07T17:42:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.birdzi.test.FullFlow.addingItems() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="addingItems()[pri:0, instance:com.birdzi.test.FullFlow@97e1986]" name="addingItems" duration-ms="285352" started-at="2017-03-07T17:42:58Z" finished-at="2017-03-07T17:47:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingItems -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.birdzi.test.FullFlow@97e1986]" name="afterTest" is-config="true" duration-ms="1" started-at="2017-03-07T17:47:44Z" finished-at="2017-03-07T17:47:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.birdzi.test.FullFlow@97e1986]" name="tearDown" is-config="true" duration-ms="10113" started-at="2017-03-07T17:47:44Z" finished-at="2017-03-07T17:47:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.birdzi.test.FullFlow -->
+    </test> <!-- Sign Up Test script -->
+    <test name="Test script for project execution end time" duration-ms="31" started-at="2017-03-07T12:17:54Z" finished-at="2017-03-07T12:17:54Z">
+      <class name="com.appium.model.EndExecution">
+        <test-method status="PASS" signature="endTime()[pri:0, instance:com.appium.model.EndExecution@59e84876]" name="endTime" duration-ms="30" started-at="2017-03-07T17:47:54Z" finished-at="2017-03-07T17:47:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTime -->
+      </class> <!-- com.appium.model.EndExecution -->
+    </test> <!-- Test script for project execution end time -->
+  </suite> <!-- Suite -->
+</testng-results>
